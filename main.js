@@ -10,7 +10,7 @@ generatePassword()
 handlePasswordLength()
 
 //Event listeners
-const copyButton = document.querySelector('#copy-button')
+const copyButton = document.querySelector('#copy')
 copyButton.addEventListener('click', copyPassword);
 
 upperCaseCheckbox.addEventListener('click', generatePassword)
